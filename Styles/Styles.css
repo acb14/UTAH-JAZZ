@@ -1,0 +1,34 @@
+/* This is a comment */
+/* This is a p element selector
+This will affect any p element that has this .css file linked to it*/
+p{
+    color:#0096d1;
+    font-family: sans-serif;
+    border: 3px solid black;
+    margin: 30px;
+    padding: 10px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* this is a class selector
+it will affect any thing that has class = "classname"
+use a . to declare a class selector in the css file*/
+.special_text {
+    font-weight: bold;
+    font-style: italic;
+    color:darkviolet;
+    border: solid grey 1px;
+}
+
+/* element selector with state */
+a:hover{
+    color: gold;
+    text-decoration: line-through;
+}
+
+.homebg {
+    background-image: url('../Images/grey.jpg');
+}

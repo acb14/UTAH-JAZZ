@@ -1,0 +1,43 @@
+.default_div {
+    position: absolute;
+    border: solid 2px black;
+    background-color: beige;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    /* bottom: 5px */
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.left_menu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 114px;
+}
+
+.right_menu {
+    right: 5px;
+    width: 100px;
+    bottom: 114px;
+    top: 114px;
+}
+
+.main_content {
+    left: 114px;
+    right: 114px;
+    top: 114px;
+    bottom: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    height: 100px;
+    left: 5px;
+    right: 5px;
+}
